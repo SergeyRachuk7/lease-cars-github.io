@@ -70,6 +70,54 @@ body {
 } 
 
 
+.footer {
+background-color: #151515;
+padding: 50px 0 32px;
+color: #fff;
+}
+
+.footer__menu {
+display: flex;
+justify-content: space-around;
+margin-bottom: 50px;
+}
+
+.footer__menu-list {
+max-width: 250px;
+}
+
+.footer__menu-title {
+font-style: 24px;
+font-weight: 700;
+padding-bottom: 20px;
+}
+
+.footer__menu-item + .footer__menu-item {
+padding-top: 20px;
+}
+
+.app {
+display: flex;
+justify-content: center;
+gap: 40px;
+margin-bottom: 52px;
+}
+
+.footer__copy {
+max-width: 800px;
+margin: 0 auto 30px;
+text-align: center;
+}
+
+.copy__nav-list {
+display: flex;
+justify-content: space-between;
+justify-content: center;
+gap: 40px;
+}
+
+
+
 .main {
  flex-grow: 1;
 }
