@@ -279,3 +279,24 @@ gap: 40px;
   top: 0; 
 }
 
+
+.video {
+  padding-bottom: 150px;
+}
+
+.video__title {
+  margin-bottom: 20px;   
+  text-align: center;
+}
+
+.video__text {
+  font-size: 24px; 
+  font-weight: 700; 
+  margin-bottom: 50px; 
+  text-align: center;
+}
+
+.video__content { 
+  display: block;
+  margin: 0 auto;
+}
