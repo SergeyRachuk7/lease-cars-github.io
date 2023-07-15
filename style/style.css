@@ -300,3 +300,25 @@ gap: 40px;
   display: block;
   margin: 0 auto;
 }
+
+.important {
+  padding-bottom: 150px;
+}
+
+.important__title {
+  margin-bottom: 20px;
+}
+
+.importand__text {
+  max-width: 580px;
+  margin: 0 auto 50px; 
+} 
+
+.importand__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.importand__itam-img {
+  margin-bottom: 20px;
+}
