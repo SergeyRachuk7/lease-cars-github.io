@@ -26,7 +26,8 @@ a{
   margin-bottom: 50px; 
   font-size: 50px; 
   font-weight: 700;  
-  text-align: center;
+  text-align: center; 
+  
 }
 
 .wrapper {
@@ -109,7 +110,8 @@ padding-top: 20px;
 
 .app {
 display: flex;
-justify-content: center;
+justify-content: center; 
+
 gap: 40px;
 margin-bottom: 52px;
 }
@@ -117,13 +119,15 @@ margin-bottom: 52px;
 .footer__copy {
 max-width: 800px;
 margin: 0 auto 30px;
-text-align: center;
+text-align: center; 
+
 }
 
 .copy__nav-list {
 display: flex;
 justify-content: space-between;
-justify-content: center;
+justify-content: center; 
+
 gap: 40px;
 }
 
@@ -134,6 +138,7 @@ gap: 40px;
 .top {
  color: #fff; 
  text-align: center; 
+  
  padding-top: 200px;      /*  250   */
  padding-bottom: 50px; 
  position: absolute; 
@@ -174,7 +179,8 @@ gap: 40px;
   background-repeat: no-repeat; 
   background-size: cover;   
   background-color: #151515;
-  background-position:  center;
+  background-position:  center; 
+  
   height: 100vh; 
 }
 
@@ -209,7 +215,8 @@ gap: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
   gap: 40px; 
-  text-align: center;
+  text-align: center; 
+  
 }
 
 .lease__item--img {
@@ -266,7 +273,9 @@ gap: 40px;
   content: counter(myCounter);  
   display: flex; 
   justify-content: center; 
-  align-items: center;
+   
+  align-items: center; 
+  
   font-size: 50px; 
   font-weight: 700; 
   background-color: #0066FF;   
@@ -286,14 +295,16 @@ gap: 40px;
 
 .video__title {
   margin-bottom: 20px;   
-  text-align: center;
+  text-align: center; 
+  
 }
 
 .video__text {
   font-size: 24px; 
   font-weight: 700; 
   margin-bottom: 50px; 
-  text-align: center;
+  text-align: center; 
+  
 }
 
 .video__content { 
@@ -333,6 +344,7 @@ gap: 40px;
 
 .contacts__text {
   text-align: center; 
+   
   font-weight: 700; 
   font-size: 24px;
   margin-bottom: 50px;
@@ -398,12 +410,52 @@ gap: 40px;
 }
 
 
+.blog {
+  padding-bottom: 150px;
+}
 
 
+.blog__items {
+  /* display: grid;      */
+  display: flex;
+  /* grid-template-columns: (2, 1fr); */
+  gap: 40px; 
+  margin-bottom: 70px;
+}
+
+.blog__item {
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
 
 
+.blog__item-img {
+  margin-bottom: 30px; 
+  width: 100%;
+}
 
+.blog__item-title {
+  /* flex-basis: 445px;  */
+  font-size: 24px; 
+  font-weight: 700;
 
+}
 
+.blog__item-link { 
+  color: #fff; 
+  background-color: #0066FF; 
+  padding: 4px 20px;
+}
 
+.blog__link { 
+  display: block;
+  text-transform: uppercase;
+  background-color: #151515; 
+  padding: 12px; 
+  color: #fff; 
+  width: 225px; 
+  margin: 0 auto; 
+  text-align: center; 
 
+}
