@@ -81,6 +81,9 @@ body {
   font-weight: 700;
 } 
 
+.menu__list-link--active {
+  color: #0066FF;
+} 
 
 .footer {
 background-color: #151515;
@@ -448,7 +451,7 @@ gap: 40px;
   padding: 4px 20px;
 }
 
-.blog__link { 
+.showmore-link { 
   display: block;
   text-transform: uppercase;
   background-color: #151515; 
@@ -457,5 +460,72 @@ gap: 40px;
   width: 225px; 
   margin: 0 auto; 
   text-align: center; 
-
 }
+
+.choose {
+  padding: 100px 0 150px;
+}
+
+.tabs__btn {
+  padding: 0 150px; 
+  display: flex;   
+  justify-content: space-between;
+  gap: 80px; 
+  padding-bottom: 100px; 
+} 
+
+.tabs__btn-item {
+  font-size: 24px; 
+  font-weight: 700; 
+  cursor: pointer; 
+  border: none; 
+  background-color: transparent; 
+  padding: 0;
+}
+
+.tabs__btn-item--active {
+  color: #0066FF;
+}
+
+.tabs__content-item {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 100px 40px;
+}
+
+.card {
+  text-align: center; 
+}
+
+.card__text {
+  margin-bottom: 20px;
+}
+
+.card__conntent {
+  /* padding: 0 5px;  */
+  border: 1px solid #0066FF; 
+  border-top: 0;
+}
+
+.card__img {
+  display: block;
+}
+
+.cart__title {
+  font-size: 24px; 
+  font-weight: 700; 
+  padding-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+
+.card__price {
+  margin-bottom: 20px; 
+  font-weight: 700; 
+  font-size: 24px;
+}
+
+.card__link {
+ 
+}
+
