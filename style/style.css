@@ -466,6 +466,10 @@ gap: 40px;
   padding: 100px 0 150px;
 }
 
+.tabs {
+  margin-bottom: 70px;
+}
+
 .tabs__btn {
   padding: 0 150px; 
   display: flex;   
@@ -483,15 +487,21 @@ gap: 40px;
   padding: 0;
 }
 
+
+
 .tabs__btn-item--active {
   color: #0066FF;
 }
 
 .tabs__content-item {
-  display: grid; 
+  display: none; 
   grid-template-columns: repeat(4, 1fr); 
   gap: 100px 40px;
 }
+
+.tabs__content-item--active {
+  display: grid;
+} 
 
 .card {
   text-align: center; 
@@ -528,4 +538,5 @@ gap: 40px;
 .card__link {
  
 }
+
 
