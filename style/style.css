@@ -536,7 +536,13 @@ gap: 40px;
 }
 
 .card__link {
- 
+ display: block; 
+ color: #0066FF; 
+ border: 1px solid #0066FF; 
+ border-top: 0;
 }
+
+
+
 
 
