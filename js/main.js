@@ -23,6 +23,14 @@ function open (evt) {
 
       document.querySelector(`#${button}`).classList.add('tabs__content-item--active');
 }
+ 
+    const menuBtn = document.querySelector('.menu__btn');
+    const menuList = document.querySelector('.menu__list');
+       menuBtn.addEventListener('click', () => {
+       menuBtn.classList.toggle('menu__btn--active'); 
+});
+
+
 
   const swiper = new Swiper(".swiper", { 
         // effect: "fade",  
@@ -34,3 +42,6 @@ function open (evt) {
         disableOnInteraction: false,
       },  
     });
+
+
+
