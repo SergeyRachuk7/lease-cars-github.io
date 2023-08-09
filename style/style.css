@@ -475,6 +475,7 @@ gap: 40px;
   display: flex;   
   justify-content: space-between;
   gap: 80px; 
+  padding-bottom: 100px; 
 } 
 
 .tabs__btn-item {
@@ -631,7 +632,10 @@ gap: 40px;
       grid-template-columns: repeat(2, 1fr);
     }       
 
-    
+    .tabs__content-item {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 
