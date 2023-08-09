@@ -744,7 +744,26 @@ gap: 40px;
   flex-direction: column; 
   align-items: center;
  } 
- .copy__nav-list {
+  .copy__nav-list {
   gap: 20px;
- }
+ }  
+  .blog__item-title {
+    margin-bottom: 10px;
+  } 
+  .blog__item-link {
+    margin-left: auto;
+  } 
+  .tabs__btn {
+    flex-direction: column;
+  }  
+  .choose {
+    padding: 50px 0;
+  }  
+  .tabs__content-item {
+    gap: 40px;
+  }  
+  .blog {
+    padding-bottom: 50px;
+  }
 }  
+
