@@ -672,10 +672,23 @@ gap: 40px;
   }
 }
 
+@media (max-width: 650px) {
+  .tabs__content-item {
+    grid-template-columns: repeat(1, 1fr);
+  }  
+  .tabs__btn-item {
+    font-size: 18px;
+  } 
+  .blog__items { 
+    display: block;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 
 @media (max-width: 540px) {
   .title {
-     font-size: 60px;
+    font-size: 60px;
   }  
 
  .top__link {
