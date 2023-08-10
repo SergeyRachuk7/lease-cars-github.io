@@ -1,0 +1,74 @@
+body {
+   background-color: #1d1818;      
+  /* background-color: #FFF;    */
+
+}
+
+.section-title {
+  color: #fff;
+} 
+
+.lease__item-title {
+  color: #fff;
+} 
+
+.lease__item-text {
+  color: #fff;
+
+}
+
+.how-does__text {
+  color: #fff;
+}
+
+.how__does-title {
+  color: #fff;
+}
+
+.how__does-item {
+  color: #fff;
+}
+
+.video__title {
+  color: #fff;
+} 
+
+.video__text {
+  color: #fff;
+}
+
+.important__title {
+  color: #fff;
+}
+
+.importand__text {
+  color: #fff;
+}
+
+.importand__item-text {
+  color: #fff;
+} 
+
+.theme { 
+   background: rgba(74, 73, 73, 0.4);     
+   box-shadow: 0 0 10x rgba(255,255,255,0.1);  
+}
+
+.changetheme[data-theme="dark"] {
+   display: none;  
+  
+}
+
+.changetheme[data-theme="light"] {
+   display: block;
+}
+
+.lease__item--img {
+  background-color: #fff; 
+  border-radius: 50%;
+} 
+
+.how__does-item::before {
+    background-color: #fff;
+    color: #0066FF;
+}

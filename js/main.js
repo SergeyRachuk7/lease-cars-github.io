@@ -45,3 +45,39 @@ function open (evt) {
 
 
 
+const themeSwitchers = document.querySelectorAll('.changetheme');
+
+themeSwitchers.forEach(switcher => {
+  switcher.addEventListener('click', function() {
+    applyTheme(this.dataset.theme);
+  });
+});
+
+function applyTheme(themeName) {
+  let themeUrl = `style/thema-${themeName}.css`;
+
+  const themeLinks = document.querySelectorAll('[rel="stylesheet"][title="thema"]');
+  
+  themeLinks.forEach(link => {
+    link.removeAttribute('disabled');
+    link.removeAttribute('title'); 
+  });
+
+  const selectedThemeLink = document.querySelector(`[href="${themeUrl}"]`);
+
+  if (selectedThemeLink) {
+    selectedThemeLink.setAttribute('disabled', 'true');
+    selectedThemeLink.setAttribute('title', 'thema');  
+  }
+
+  localStorage.setItem('theme', themeName); // Збереження теми в localStorage
+}
+
+// Отримання активної теми з localStorage та застосування її
+let activeTheme = localStorage.getItem('theme'); 
+
+if(activeTheme === null) {
+    applyTheme('light');
+} else {
+  applyTheme(activeTheme);
+}
