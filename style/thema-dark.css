@@ -69,6 +69,6 @@ body {
 } 
 
 .how__does-item::before {
-    background-color: #fff;
-    color: #0066FF;
+  background-color: #fff;
+  color: #0066FF;
 }

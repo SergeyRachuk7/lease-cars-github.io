@@ -55,7 +55,8 @@ body {
 }
 
 .header-main { 
-  background-color: transparent; 
+  background-color: transparent;  
+
   position: absolute; 
   z-index: 10;
   left: 0;
@@ -582,7 +583,6 @@ gap: 40px;
   cursor: pointer;    
   margin: 5px;
 }
-
 
 
 @media (max-width: 1450px) {  
