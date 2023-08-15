@@ -82,6 +82,12 @@ body {
   font-weight: 700;
 } 
 
+.menu__list-link:hover  {  
+  color: #405672;   
+  transition: color 0.3s ease; 
+
+}
+
 .menu__list-link--active {
   color: #0066FF;
 } 
